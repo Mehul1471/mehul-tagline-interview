@@ -1,23 +1,21 @@
-# Getting Started with Create React App
+# Dynamic Filter and Data list
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This project demonstartes how to dynamically generate filter fields based on static JSON data and implement functionality to filter data accordingly. The project also showcases listing down data based on the applied filters.
 
-### `npm install`
+## Featured
+- **Dynamic Filter Generation**: The project automatically generates filter fields based on the structuered on the provided JSON data.
+- **Data Listing**: It dispolay data in list format.
+- **Filter Functionality**: User can filter data based on dynamically generatedfilter fields.
 
-package install.
+## Getting Started
+To get started with the project, follow these steps:
 
-### `npm start`
+1. **Clone Repository**: Clone this repository to your local machine using the following command:
+git clone<https://github.com/Mehul1471/mehul-tagline-interview.git>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Install dependencies**: Navigate to the project directory and install the necessary dependencies by running:
+npm install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `Project information :`
-
-This project based on javascript concepts clearance. In this project we can list static jsoin data
-dynamically with filter based.\
-
-Here filter is dynamically set based on json data. If json data would be change filter fields and table
-data also changed.
+3, **Start the development Server**: Start the development server by running:
+npm start
